@@ -1,0 +1,13 @@
+com\example\bookexchange\pojo\Book.class
+com\example\bookexchange\pojo\ExchangeDetails.class
+com\example\bookexchange\repository\BorrowDetailsRepository.class
+com\example\bookexchange\ServletInitializer.class
+com\example\bookexchange\exception\MyException.class
+com\example\bookexchange\BookExchangeApplication.class
+com\example\bookexchange\pojo\User.class
+com\example\bookexchange\repository\ExchangeDetailsRepository.class
+com\example\bookexchange\pojo\ExchangeDetailsIds.class
+com\example\bookexchange\repository\UserRepository.class
+com\example\bookexchange\pojo\BorrowDetails.class
+com\example\bookexchange\ApplicationConfig.class
+com\example\bookexchange\constants\Constants.class
