@@ -1,0 +1,98 @@
+AddUser- 
+
+http://localhost:8080/addUser
+
+{
+	"userId":"userId1",
+	"userName":"user1",
+	"password":"12355",
+	"phoneNumber":"7891234564"
+}
+
+{
+	"userId":"userId2",
+	"userName":"user2",
+	"password":"123955",
+	"phoneNumber":"7891239564"
+}
+
+Add Book - 
+
+ http://localhost:8080/addBook
+ 
+ {
+	"bookId":"book1",
+	"userId":"userId1",
+	"bookName":"test book",
+	"authorName":"author1",
+	"isExchangable":true
+}
+
+
+{
+	"bookId":"book2",
+	"userId":"userId2",
+	"bookName":"book Java",
+	"authorName":"author2",
+	"isExchangable":true
+}
+
+Exchange Book - 
+
+http://localhost:8080/exchangeBook
+
+{
+	"bookId1":"book1",
+	"userId1":"userId1",
+	"bookId2":"book2",
+	"userId2":"userId2"
+}
+
+Borrow Book- 
+
+http://localhost:8080/borrowBook
+
+
+{
+	"ownerId":"userId2",
+	"bookId":"book1",
+	"borrowerId":"userId1"
+}
+
+Mark Book Exchangable-  
+
+http://localhost:8080/markBookExchangable
+
+{
+	"userId":"userId2",
+	"bookId":"book1",
+	"isExchangable":false
+}
+
+Verify User -
+
+http://localhost:8080/verifyUser
+
+
+{
+	"userId":"userId1",
+	"password":"12355"
+}
+
+Get All exchangable book for guest -
+
+http://localhost:8080/getAllBooksForGuestUser
+
+Get all exchangeble book for verified user
+
+http://localhost:8080/getAllBooksForVerifiedUser
+
+{
+	"userId":"userId2"
+}
+
+
+
+
+
+
